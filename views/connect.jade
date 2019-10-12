@@ -1,0 +1,47 @@
+//
+   Created by bastianschiffthaler on 4/13/16.
+extends layout
+
+block content
+    .container-fluid
+        h1 Transcriptome Analysis for Non-Model Organism, Cambridge, EU (still), April 15th-17th, 2019
+        hr
+        a.btn.btn-lg.btn-success(href='/', role='button') Home
+        span &nbsp
+        a.btn.btn-lg.btn-primary(href="/materials") View or download materials
+        hr
+        p.lead.
+            Note:
+        ul
+            li
+            //    b The AWS server is disabled, but the FTP accessible from
+            //    a(href="http://www.ebi.ac.uk/training/events/2016/advanced-rna-seq-and-chip-seq-data-analysis-2016")  the course website
+            //    b  has instructions on how to retrieve the course material and set it up on AWS.
+            li The username and password are "training"
+            li When connecting to the terminal, accept the default "localhost" and "22"
+        hr
+        h3 Connect to your instance
+        br
+        table.table.table-striped
+            thead
+                th Name
+                th Apache
+                th Terminal
+                th RStudio
+                th SSH
+            tbody
+                for key,val in userdata
+                   tr
+                      td=val
+                      td 
+                        a(href="http://localhost:10001") Browse your files
+                      td 
+                        a(href="http://localhost:11001") Access the Terminal
+                      td
+                        a(href="http://localhost:12001") Connect to RStudio
+                      td Use ssh -p 9001 training@localhost
+        hr
+        a.btn.btn-lg.btn-success(href='/', role='button') Home
+        span &nbsp
+        a.btn.btn-lg.btn-primary(href="/materials") View or download materials
+        hr
