@@ -4,7 +4,8 @@ extends layout
 
 block content
     .container-fluid
-        h1 Transcriptome Analysis for Non-Model Organism, Cambridge, EU (still), April 15th-17th, 2019
+        h1 RNA-Seq Data Analysis
+        h3 ILS Doctoral Programme, Helsinki University, October 21st-25th, 2019
         hr
         a.btn.btn-lg.btn-success(href='/', role='button') Home
         span &nbsp
@@ -13,7 +14,7 @@ block content
         p.lead.
             Note:
         ul
-            li
+            //li
             //    b The AWS server is disabled, but the FTP accessible from
             //    a(href="http://www.ebi.ac.uk/training/events/2016/advanced-rna-seq-and-chip-seq-data-analysis-2016")  the course website
             //    b  has instructions on how to retrieve the course material and set it up on AWS.
@@ -34,12 +35,13 @@ block content
                    tr
                       td=val
                       td 
-                        a(href="http://localhost:10001") Browse your files
+                        a(href="http://" + key[1] + ":100" + key[0]) Browse your files
                       td 
-                        a(href="http://localhost:11001") Access the Terminal
+                        a(href="http://" + key[1] + ":110" + key[0]) Access the Terminal
                       td
-                        a(href="http://localhost:12001") Connect to RStudio
-                      td Use ssh -p 9001 training@localhost
+                        a(href="http://" + key[1] + ":120" + key[0]) Connect to RStudio
+                      td
+                        <p> Use ssh -p 90#{key[0]} training@#{key[1]}</p>
         hr
         a.btn.btn-lg.btn-success(href='/', role='button') Home
         span &nbsp
