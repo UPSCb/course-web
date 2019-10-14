@@ -9,7 +9,7 @@ The repository consists of very few important directories:
 * bin - contains the __nodejs__ executable aptly named _www_
 * public - the materials subdirectory is where we stored the courses PDFs - try to keep this small, i.e. no data!
 * routes - this contains the js files; i.e. the logic behind the webpage behavior
-* views - this contains the files that will generate the html; these are written in _jade_.
+* views - this contains the files that will generate the html; these are written in _pug_.
 
 The other directories/files are managed by __nodejs__
 
@@ -23,13 +23,13 @@ The other directories/files are managed by __nodejs__
 
 * http://www.w3schools.com/bootstrap/default.asp - The "CMS" we use (Bootstrap)
 
-* https://www.npmjs.com/package/jade - The template language for writing HTML
+* https://www.npmjs.com/package/pug - The template language for writing HTML
 
 ## Changes needed for a course
 
 To edit the website for a course, you need to:
 
-1. Edit the title of the course in the index, connect and materials jade view files (Look for the first h1)
+1. Edit the title of the course in the index, connect and materials pug view files (Look for the first h1)
 2. Edit the short version of the title in the index, connect and materials js routes files (Look for :title:")
 3. Edit the participant list in the connect.js file (At the moment this is a bit convoluted as we used 2 servers and had to divide the participants across, but ideally it should be a simple user-ID list. The ID is later used to assign the Port number to connect to the user-specific Docker containers.
 
@@ -39,6 +39,6 @@ To edit the website for a course, you need to:
 
 * handle different IPs more gracefully than in the connect.js
 
-* provide the course title in a single place to avoid editing all _js_ files and the index, connect and materials _jade_ view files
+* provide the course title in a single place to avoid editing all _js_ files and the index, connect and materials _pug_ view files
 
 * Find a way to import materials to _public/materials_ instead of git-ing everything
