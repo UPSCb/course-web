@@ -16,7 +16,7 @@ userdata =
 "Group10":["10"],
 "Group11":["11"],
 "Group12":["12"],
-}
+};
 
 /* GET users listing. */
 router.get('/', function(req, res, next) {
@@ -25,7 +25,7 @@ router.get('/', function(req, res, next) {
             //var baseIP = parseInt(userdata[property]) < 20 ? "195.148.31.25" : "195.148.31.27";
             //var baseIP = "34.251.25.121"
 	    // var baseIP = "localhost"
-	    var baseIP = "44.226.5.112"
+	    var baseIP = "44.226.5.112";
 	    //var baseIP = "195.148.31.25"
             userdata[property].push(baseIP);
         }
