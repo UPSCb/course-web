@@ -63,3 +63,7 @@ typings/
 # materials
 materials/
 materials
+.Rproj.user
+*.Rproj
+.Rhistory
+

@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'RDA-HEL-2019' });
+  res.render('index', { title: 'RSA-NMO-BERLIN-2019' });
 });
 
 module.exports = router;
