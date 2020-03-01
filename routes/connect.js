@@ -4,21 +4,15 @@ var router = express.Router();
 /* for i in {1..64} ; do echo '"'$(printf "User%02d" $i)'":["'$(printf "%02d" $i)'"],'; done */
 userdata =
 {
-"Group01":["01"],
-"Group02":["02"],
-"Group03":["03"],
-"Group04":["04"],
-"Group05":["05"],
-"Group06":["06"],
-"Group07":["07"],
-"Group08":["08"],
-"Group09":["09"],
-"Group10":["10"],
-"Group11":["11"],
-"Group12":["12"],
-"Group13":["13"],
-"Group14":["14"],
-"Group15":["15"],
+"Local01":["01"],
+"Local02":["02"],
+"Local03":["03"],
+"Local04":["04"],
+"Local05":["05"],
+"Local06":["06"],
+"RemoteAlnarp":["07"],
+"RemoteUltuna":["08"],
+"RemoteUmea":["09"]
 };
 
 /* GET users listing. */
