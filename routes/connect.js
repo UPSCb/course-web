@@ -28,6 +28,7 @@ userdata =
 "Irene Martinez-Fernandez":["22"],
 "Iryna Shutava":["23"],
 "Isura Nagahage":["24"],
+"Jenna Lihavainen":["54"],
 "Johan Sjölander":["25"],
 "Johanna Osterman":["26"],
 "Keh Chien Lee":["27"],
@@ -56,7 +57,8 @@ userdata =
 "Verena Fleig":["50"],
 "Vikash Kumar":["51"],
 "Ying Liu":["52"],
-"Zuzana Binova":["53"]
+"Zuzana Binova":["53"],
+"Nicolas Delhomme":["55"]
 };
 
 /* GET users listing. */
