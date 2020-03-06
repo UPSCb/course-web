@@ -4,6 +4,15 @@ var router = express.Router();
 /* for i in {1..64} ; do echo '"'$(printf "User%02d" $i)'":["'$(printf "%02d" $i)'"],'; done */
 userdata =
 {
+"Seidr01":["10"],
+"Seidr02":["11"],
+"Seidr03":["12"],
+"Seidr04":["13"],
+"Seidr05":["14"],
+"Seidr06":["15"],
+"SeidrAlnarp":["16"],
+"SeidrUltuna":["17"],
+"SeidrUmea":["18"],
 "Local01":["01"],
 "Local02":["02"],
 "Local03":["03"],
