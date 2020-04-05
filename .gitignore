@@ -67,3 +67,6 @@ materials
 *.Rproj
 .Rhistory
 
+# package-lock
+package-lock.json
+
