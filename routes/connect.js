@@ -22,6 +22,8 @@ userdata =
 "Vicente Machado":["17"],
 "Pruthvi Balachandra Kalyandurg":["18"],
 "Ming Feng":["19"],
+"Domenico Simone":["20"],
+"Nicolas Delhomme":["21"],
 };
 
 /* GET users listing. */
