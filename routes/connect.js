@@ -9,6 +9,7 @@ userdata =
 "Maria Luz Annacondia Lopez":["03"],
 "Martina Leso":["04"],
 "Silvana Moreno":["05"],
+"Juliette Hayer":["06"],
 "Le Yu":["07"],
 "Vahideh Rafiee":["08"],
 "Aswin Thirunavukkarasu":["09"],
