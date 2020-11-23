@@ -4,11 +4,24 @@ var router = express.Router();
 /* for i in {1..64} ; do echo '"'$(printf "User%02d" $i)'":["'$(printf "%02d" $i)'"],'; done */
 userdata =
 {
-"User01":["01"],
-"User02":["02"],
-"User03":["03"],
-"User04":["04"],
-"User05":["05"],
+"Laingshun Huoy":["01"],
+"Dimitris Kokoretsis":["02"],
+"Maria Luz Annacondia Lopez":["03"],
+"Martina Leso":["04"],
+"Silvana Moreno":["05"],
+"Le Yu":["07"],
+"Vahideh Rafiee":["08"],
+"Aswin Thirunavukkarasu":["09"],
+"Muhammad Awais ZAhid":["10"],
+"Rimsha Ashraf":["11"],
+"Murilo Araujo Sandroni":["12"],
+"Sewalem Tsehay Wondim":["13"],
+"Sumalata Sonavane":["14"],
+"Xue Zhang":["15"],
+"Pontus Öhlund":["16"],
+"Vicente Machado":["17"],
+"Pruthvi Balachandra Kalyandurg":["18"],
+"Ming Feng":["19"],
 };
 
 /* GET users listing. */
