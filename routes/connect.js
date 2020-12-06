@@ -4,27 +4,39 @@ var router = express.Router();
 /* for i in {1..64} ; do echo '"'$(printf "User%02d" $i)'":["'$(printf "%02d" $i)'"],'; done */
 userdata =
 {
-"Laingshun Huoy":["01"],
-"Dimitris Kokoretsis":["02"],
-"Maria Luz Annacondia Lopez":["03"],
-"Martina Leso":["04"],
-"Silvana Moreno":["05"],
-"Juliette Hayer":["06"],
-"Le Yu":["07"],
-"Vahideh Rafiee":["08"],
-"Aswin Thirunavukkarasu":["09"],
-"Muhammad Awais ZAhid":["10"],
-"Rimsha Ashraf":["11"],
-"Murilo Araujo Sandroni":["12"],
-"Sewalem Tsehay Wondim":["13"],
-"Sumalata Sonavane":["14"],
-"Xue Zhang":["15"],
-"Pontus Öhlund":["16"],
-"Vicente Machado":["17"],
-"Pruthvi Balachandra Kalyandurg":["18"],
-"Ming Feng":["19"],
-"Domenico Simone":["20"],
-"Nicolas Delhomme":["21"],
+["Diego Safian"]:["1"],
+["Alessandra Aleotti"]:["2"],
+["Andrew Ndhlovu"]:["3"],
+["Katie Watson"]:["4"],
+["Frederick Mokumo"]:["5"],
+["Willemien van Wyk"]:["6"],
+["Quentin Willot"]:["7"],
+["Alessia Cassaro"]:["8"],
+["Mikidache Madi"]:["9"],
+["Susana Almeida"]:["10"],
+["Annamaria Mattia"]:["11"],
+["David Branson"]:["12"],
+["Niki Chondrelli"]:["13"],
+["Alexandra Hiller"]:["14"],
+["John Majoris"]:["15"],
+["Micaela Justo"]:["16"],
+["Laura King"]:["17"],
+["Pamela Vinueza"]:["18"],
+["Wouter Makkinje"]:["19"],
+["Federica Pirri"]:["20"],
+["Marwan Anoud"]:["21"],
+["Tomasz Mamos"]:["22"],
+["Maria Lisette Delgado Aquije"]:["23"],
+["Maria Herranz"]:["24"],
+["David Barros-García"]:["25"],
+["Monika Kreklova"]:["26"],
+["Hana Thompson"]:["27"],
+["Flavia Pinzari"]:["28"],
+["Laura Gramolini"]:["29"],
+["Abush Zinaw Zergabachew"]:["30"],
+["Abel Gizaw Seid"]:["31"],
+["Bastian Schiffthaler"]:["32"],
+["Nicolas Delhomme"]:["33"],
 };
 
 /* GET users listing. */
@@ -40,7 +52,7 @@ router.get('/', function(req, res, next) {
             userdata[property].push(baseIP);
         }
     }
-  res.render('connect', {userdata : userdata, title: 'SLUBI-2020' });
+  res.render('connect', {userdata : userdata, title: 'RSA-NMO-BERLIN-2020' });
 });
 
 module.exports = router;

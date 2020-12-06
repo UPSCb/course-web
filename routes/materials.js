@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET users listing. */
 router.get('/', function(req, res, next) {
-  res.render('materials', { title: 'SLUBI-2020' });
+  res.render('materials', { title: 'RSA-NMO-BERLIN-2020' });
 });
 
 module.exports = router;
