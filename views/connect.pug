@@ -16,7 +16,7 @@ block content
             //    b The AWS server is disabled, but the FTP accessible from
             //    a(href="http://www.ebi.ac.uk/training/events/2016/advanced-rna-seq-and-chip-seq-data-analysis-2016")  the course website
             //    b  has instructions on how to retrieve the course material and set it up on AWS.
-            li The username is "training", the password has been communicated to you separately.
+            li The username is "user", the password has been communicated to you separately.
         hr
         h3 Connect to your instance
         br
@@ -32,13 +32,13 @@ block content
                    tr
                       td=val
                       td 
-                        a(href="http://" + key[1] + ":100" + key[0]) Browse your files
+                        a(href="https://" + key[1] + ":100" + key[0]) Browse your files
                       td 
-                        a(href="http://" + key[1] + ":110" + key[0]) Access the Terminal
+                        a(href="https://" + key[1] + ":110" + key[0]) Access the Terminal
                       td
                         a(href="http://" + key[1] + ":120" + key[0]) Connect to RStudio
                       td
-                        <p> Use ssh -p 90#{key[0]} training@#{key[1]}</p>
+                        <p> Use ssh -p 90#{key[0]} user@#{key[1]}</p>
         hr
         a.btn.btn-lg.btn-success(href='/', role='button') Home
         span &nbsp
