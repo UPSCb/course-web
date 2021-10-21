@@ -45,7 +45,7 @@ router.get('/', function(req, res, next) {
 	          //var baseIP = "franklin.upsc.se";
 	          //var baseIP = "localhost";
 	          // var baseIP = "44.226.5.112";
-	          var baseIP = "195.148.31.25"
+	          var baseIP = "195.148.31.25";
             userdata[property].push(baseIP);
         }
     }
