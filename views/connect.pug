@@ -33,13 +33,13 @@ block content
                    tr
                       td=val
                       td 
-                        a(href="https://" + key[1] + ":100" + key[0]) Browse your files
+                        a(href="http://" + key[1] + ":100" + key[0]) Browse your files
                       td 
-                        a(href="https://" + key[1] + ":110" + key[0]) Access the Terminal
+                        a(href="http://" + key[1] + ":110" + key[0]) Access the Terminal
                       td
                         a(href="http://" + key[1] + ":120" + key[0]) Connect to RStudio
                       td
-                        <p> Use ssh -p 90#{key[0]} user@#{key[1]}</p>
+                        <p> Use ssh -p 90#{key[0]} training@#{key[1]}</p>
         hr
         a.btn.btn-lg.btn-success(href='/', role='button') Home
         span &nbsp
