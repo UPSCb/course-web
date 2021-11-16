@@ -3,18 +3,14 @@ extends layout
 block content
     .container-fluid
         h1 RNA-Seq Analyses in Non-Model Organisms
-        h3.
-          <b>BNBio: Nicolas Delhomme and Bastian Schiffthaler</b>, and Brian Haas* and Charlotte Soneson*
-        h3 Venue: Physalia Courses, Online, November 22nd-26th, 2021
+        h3 Physalia Courses, Online, December 7th-11th, 2020
         hr
         a.btn.btn-lg.btn-success(href='/', role='button') Home
         span &nbsp
         a.btn.btn-lg.btn-primary(href="/connect") Connect to instance
         hr
         h3 Download or view materials
-        
         .well <b>Pre-course</b>
-            p <b>Note</b> This material is meant to be perused before the course - some of it is intentionally providing similar information in varied format, therefore feel free to choose the support you prefer.
             ul
                 li Cheat sheets and others - extremely useful reference, bookmark!
                     ul
@@ -26,32 +22,31 @@ block content
                             a(href="https://github.com/trinityrnaseq/trinityrnaseq/wiki") Trinity Wiki
                 li Practice
                     ul
-                        li Get access to a terminal, log in with the user: <b>training</b> (for the password, check slack) - this is an emulation in your web browser, you can use your own linux terminal if you have access to one. To use the paste functionality in the emulated terminal, you need to use the right click "Paste from browser" menu.
+                        li Get access to a terminal, log in with the user: <b>training</b> (password: <b>training</b>)
                             br
                             a(href="http://franklin.upsc.se:11099/") Access the practice terminal
                         li An introduction to the <b>unix/linux command line</b>. Do the 10 steps listed on:
                             br
                             a(href="http://linuxcommand.org/lc3_learning_the_shell.php") LinuxCommand.org (about 2h).
-                        li An introduction to the <b>R language and environment</b> 
+                        li An introduction to the <b>R language and environment</b>
                             a(href="https://bschiffthaler.github.io/fg-course/") - In that page go to the R Basics link and go through it (about 2h)
             ul
                 li Read
                     ul
-                        li <b> Ahead of Day 1 </b>
+                        li <b> For Day 1 </b>
                         li
                             a(href="https://www.nature.com/articles/nature24286") DNA Sequencing in the last 40 years
                         li
-                            a(href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3571712/") Trinity _de-novo_ transcriptome assembly                       
-                            
-                        li <b> Ahead of Day 5 </b>
+                            a(href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3571712/") Trinity _de-novo_ transcriptome assembly
+                        li <b> For Day 5 </b>
                         li
                             a(href="https://www.ncbi.nlm.nih.gov/pubmed/18516045") The original RNA-Seq publication
                         li
                             a(href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4728800/") Best practices for RNA-seq data analysis
                         li
-                            a(href="Material/Guidelines-for-RNA-Seq-data-analysis.pdf") Guideline for RNA-Seq data analysis
+                            a(href="materials/Guidelines-for-RNA-Seq-data-analysis.pdf") Guideline for RNA-Seq data analysis
                         li
-                            a(href="Material/Statistical-consideration.pdf") Statistical considerations
+                            a(href="materials/Statistical-consideration.pdf") Statistical considerations
                         li
                             a(href="https://www.ncbi.nlm.nih.gov/pubmed/22988256") Normalization Method Comparison
                         li
@@ -61,10 +56,10 @@ block content
             ul
                 li Watch
                      ul
-                        li Ahead of Day 1:
+                        li For Day 1:
                             br
                             a(href="https://www.youtube.com/watch?v=mI0Fo9kaWqo") A video on High Throughput Sequencing - Eric Chow from University California San Franscisco - Duration: <b>32 minutes</b>
-                        li Ahead of Day 5:
+                        li For Day 5:
                             br
                             a(href="https://youtu.be/wOZ7rOJbUlY") Consideration about Study Design and statistical background - includes subtitles to get you used to my french accent - Duration: <b>29 minutes</b>
         .well Day 1 - <b> High Throughput Sequencing, 2nd generation</b>
@@ -105,6 +100,8 @@ block content
             ul
                 li
                    a(href="LearningObjectives/Day3-LO.pdf") Daily Learning Objectives
+                   br
+                   p VOTE!
                 li 14:00 - 14:30 
                    a(href="Exercises/Day3/Day3-Revision.pdf") - Revision session
                 li 14:30 - 15:00 
@@ -166,6 +163,14 @@ block content
                    br
                    a(href="Exercises/Day5/CharlotteDE-commented.zip") Annotated version of Charlotte's DE tutorial (upload it to RStudio to visualise it)
                 li 19:40 - 20:00 - Final revision session and Feedback
+                br   
+                p <b>Bonus material - Network inference</b>
+                li
+                   a(href="https://youtu.be/LCeCxd-vfoc") Watch the Video (Network Inference lecture March 2020)
+                li
+                   a(href="Lecture/Day5/Networks.pdf") Gene Network Inference Lecture
+                li
+                   a(href="Exercises/Day5/Gene-network-practical.pdf") Gene Network Inference Practical
         .well Extras
             ul
                 li
@@ -173,13 +178,28 @@ block content
                 li
                     a(href="http://www.springer.com/gp/book/9783319072111") Book - Statistical Analysis of Next Generation Sequencing Data
                 li
-                    a(href="https://r4ds.had.co.nz") Book - R for Data Science
-                li
-                    a(href="https://vincebuffalo.com/book/") Book - Bioinformatics Data Skills
-                li
                     a(href="https://leanpub.com/dataanalysisforthelifesciences") Website - Data Analysis for the Life Sciences
                 li
                     a(href="http://f1000research.com/channels/bioconductor?&selectedDomain=ARTICLES") Website - F1000 Research Bioconductor Channel
+                li
+                    a(href="Lecture/Misc/Nicolas-Delhomme_Course-Setup.pdf") Course setup using Docker container
+                li <b>Most of the practicals below require data / software not available in the course setup - contact us if interested</b>
+                li
+                    a(href="Lecture/Day5/Nicolas-Delhomme_Gene-Set-Enrichment-Analysis.pdf") Day 5 extra - GSEA Lecture
+                li
+                    a(href="Exercises/Day5/EGSEAWorkflow.html") Day 5 extra - Ensemble GSEA tutorial 
+                li
+                    a(href="Lecture/Day5/Machine Learning.pdf") Day 5 extra - Machine Learning Lecture
+                li
+                    a(href="Exercises/Day5/cancer-vs-healthy.html") Day 5 extra - Cancer vs. Healthy Machine Learning Prediction
+                li
+                    a(href="Exercises/Day5/cancer-mc-vs-healthy.html") Day 5 extra - Cancer vs. Healthy Machine Learning Classification
+                li
+                    a(href="Lecture/Day5/Ximena-single-cell-presentation.pdf") Day 5 extra - Single Cell Sequencing lecture
+                li
+                    a(href="Exercises/Day5/basic-practical.html") Day 5 extra - Single cell RNA-Seq practical
+                li
+                    a(href="Exercises/Day5/droplet-practical.html") Day 5 extra - Droplet single cell RNA-Seq practical
         hr
         a.btn.btn-lg.btn-success(href='/', role='button') Home
         span &nbsp

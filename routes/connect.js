@@ -4,56 +4,34 @@ var router = express.Router();
 /* for i in {1..64} ; do echo '"'$(printf "User%02d" $i)'":["'$(printf "%02d" $i)'"],'; done */
 userdata =
 {
-"Group01":["01"],
-"Group02":["02"],
-"Group03":["03"],
-"Group04":["04"],
-"Group05":["05"],
-"Group06":["06"],
-"Group07":["07"],
-"Group08":["08"],
-"Group09":["09"],
-"Group10":["10"],
-"Group11":["11"],
-"Group12":["12"],
-"Group13":["13"],
-"Group14":["14"],
-"Group15":["15"],
-"Group16":["16"],
-"Group17":["17"],
-"Group18":["18"],
-"Group19":["19"],
-"Group20":["20"],
-"Group21":["21"],
-"Group22":["22"],
-"Group23":["23"],
-"Group24":["24"],
-"Group25":["25"],
-"Group26":["26"],
-"Group27":["27"],
-"Group28":["28"],
-"Group29":["29"],
-"Group30":["30"],
-"Group21":["31"],
-"Group22":["32"],
-"Group23":["33"],
-"Group24":["34"],
-"Group25":["35"],
-"Group26":["36"],
-"Group27":["37"],
-"Group28":["38"],
-"Group29":["39"],
-"Group30":["40"],
-"Group21":["41"],
-"Group22":["42"],
-"Group23":["43"],
-"Group24":["44"],
-"Group25":["45"],
-"Group26":["46"],
-"Group27":["47"],
-"Group28":["48"],
-"Group29":["49"],
-"Group30":["50"]
+"Adrian Galitz":["01"],
+"Alessia Carini":["02"],
+"Arif Khan":["03"],
+"Artur Trzebny":["04"],
+"Bastian Schiffthaler":["05"],
+"Beti Ivanovska":["06"],
+"Camila Duarte Ritter":["07"],
+"Carolina Ortiz Movliav":["08"],
+"Dareen Almojil":["09"],
+"David Paz-Garcia":["10"],
+"Emma Kaszecki":["11"],
+"Enora Geslain":["12"],
+"Fiona Savory ":["13"],
+"Kristina Noreikiene":["14"],
+"Lea Hördemann":["XX"],
+"Lluis Garcia Mir":["15"],
+"Manon de Visser":["16"],
+"Maria Nilsson Janke":["17"],
+"Marvin Suhr":["18"],
+"Megan Meany":["19"],
+"Neda Rahnamae":["20"],
+"Nicolas Delhomme":["21"],
+"Rosa Virginia Dominguez Beltran":["22"],
+"Sarah Lower":["23"],
+"Sebastian Kirchhof":["24"],
+"Shilpa Parbhu":["25"],
+"Sierra Smith":["26"],
+"Tareg Shaldoom":["27"],
 };
 
 /* GET users listing. */
@@ -62,14 +40,14 @@ router.get('/', function(req, res, next) {
         if (userdata.hasOwnProperty(property)) {
             //var baseIP = parseInt(userdata[property]) < 20 ? "195.148.31.25" : "195.148.31.27";
             //var baseIP = "34.251.25.121"
-	          //var baseIP = "franklin.upsc.se";
+	          var baseIP = "franklin.upsc.se";
 	          //var baseIP = "localhost";
 	          // var baseIP = "44.226.5.112";
-	          var baseIP = "195.148.31.25";
+	          //var baseIP = "195.148.31.25";
             userdata[property].push(baseIP);
         }
     }
-  res.render('connect', {userdata : userdata, title: 'NGG-HELSINKI-2021' });
+  res.render('connect', {userdata : userdata, title: 'RSA-NMO-BERLIN-2021' });
 });
 
 module.exports = router;
