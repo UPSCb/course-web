@@ -2,10 +2,8 @@ extends layout
 
 block content
     .container-fluid
-        h1 RNA-Seq Analyses in Non-Model Organisms
-        h3.
-          <b>BNBio: Nicolas Delhomme and Bastian Schiffthaler</b>, and Brian Haas* and Charlotte Soneson*
-        h3 Venue: Physalia Courses, Online, November 22nd-26th, 2021
+        h1 Analysis of High Throughput Sequencing RNA-Seq Data
+        h3 Online, Sweden, (November 29th-30th); December 6th - December 10th; (December 17th)
         hr
         a.btn.btn-lg.btn-success(href='/', role='button') Home
         span &nbsp
@@ -34,11 +32,11 @@ block content
                    tr
                       td=val
                       td 
-                        a(href="https://" + key[1] + ":100" + key[0]) Browse your files
+                        a(href="http://" + key[1] + ":100" + key[0]) Browse your files
                       td 
-                        a(href="https://" + key[1] + ":120" + key[0]) Access the Terminal
+                        a(href="http://" + key[1] + ":110" + key[0]) Access the Terminal
                       td
-                        a(href="https://" + key[1] + ":110" + key[0]) Connect to RStudio
+                        a(href="http://" + key[1] + ":120" + key[0]) Connect to RStudio
                       td
                         <p> Use ssh -p 90#{key[0]} training@#{key[1]}</p>
         hr
