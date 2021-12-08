@@ -103,13 +103,19 @@ block content
                    a(href="Feedback/Feedback-And-Daily-Assessment.pdf") - Feedback and Daily Assessment
         .well Day 3 - <b>Third(!) generation sequencing, <i>de-novo</i> transcriptome assembly, assessment and evalutation</b>
             ul
-                li
+                li 14:00 - 14:40 
+                   a(href="https://bschiffthaler.github.io/TranscriptomeAssembly/#/") - De-novo transcriptome assembly lecture and tutorial
+                   br
+                   a(href="https://gist.github.com/bschiffthaler/9cd8c5c656981f94e99b9d790408a248") Input Transcriptome Assembly
+                   br
+                   a(href="Lecture/Day1/DataAtHand.pdf") - Data description
+                   br
                    a(href="LearningObjectives/Day3-LO.pdf") Daily Learning Objectives
-                li 14:00 - 14:30 
+                li 14:40 - 15:00 
                    a(href="Exercises/Day3/Day3-Revision.pdf") - Revision session
-                li 14:30 - 15:00 
+                li 15:00 - 15:20 
                    a(href="Lecture/Day3/Nicolas-Delhomme-3rd-generation-sequencing.pdf") - De-novo transcriptome assembly lecture - 3rd generation sequencing!
-                li 15:10 - 16:00 
+                li 15:20 - 16:00 
                    a(href="Exercises/Day3/Trinity-hybrid-assembly.pdf") - De-novo transcriptome assembly - revisited
                 li 16:10 - 17:40 
                    a(href="https://bschiffthaler.github.io/TranscriptomeEvaluation") - Assembly evaluation
@@ -123,49 +129,41 @@ block content
                    a(href="Feedback/Feedback-And-Daily-Assessment.pdf") - Feedback and Daily Assessment
         .well Day 4 - <b> Transcript quantification and Differential Expression</b>
             ul
+                li 14:00 - 14:30 
+                   a(href="https://gist.github.com/bschiffthaler/23d183eff6d085c40b3ddbdd56c47e86") Transcriptome annotation
+                   br
+                   a(href="https://gist.github.com/bschiffthaler/e3db090b0eec84dbb14801996f856803") Transdecoder
                 li
                    a(href="LearningObjectives/Day4-LO.pdf") Daily Learning Objectives
-                li 14:00 - 14:30 
-                   a(href="Exercises/Day4/Day4-Revision.pdf") - Revision session
                 li 14:30 - 15:00 
-                   a(href="Lecture/Day4/Pseudoalignments.pdf") - Pseudo-alignment Lecture
-                li 15:10 - 15:40 
-                   a(href="Exercises/Day4/Day4Exercise.pdf") - Hands-on practical - Pseudo-alignment
-                   br
-                   a(href="Exercises/Day4/Day4Recap.pdf") Bash scripting and looping tutorial
-                li 15:40 - 17:00 
+                   a(href="Exercises/Day4/Day4-Revision.pdf") - Revision session
+                li 15:00 - 15:30 
+                   a(href="https://gist.github.com/nicolasDelhomme/1e52d6a43b3c7b47edf1f7691d455283") - Pseudo-alignment
+                li 15:30 - 17:00 
                    a(href="Lecture/Day4/Statistical-analysis-of-expression-data.pdf") - Statistical concerns - Lecture
-                li 17:10 - 18:40 
-                   a(href="Exercises/Day4/rnaseq_gene_EBI_advRNAseq_2019.html") - Differential Expression analysis setup - until the Exploratory analysis and visualization (included)
-                   br
-                   a(href="Exercises/Day4/Charlotte-BiologicalQA.R") Differential Expression analysis setup - R code
-                li 18:40 - 19:40 
+                li 17:00 - 17:15 
+                   a(href="https://gist.github.com/nicolasDelhomme/cf62d4b761cf9fa6ff7c998b0041ff62") - Git crash course 
+                li 17:15 - 18:15 
                    a(href="Lecture/Day4/differential_expression-TANMO2019.pdf") - Lecture Differential Expression
-                li 19:40 - 20:00
+                li 18:15 - 19:40 
+                   a(href="Exercises/Day4/rnaseq_gene_EBI_advRNAseq_2019.html") - Differential Expression analysis setup - until the Exploratory analysis and visualization (included)
+                li 19:40 - 20:00 
                    a(href="Feedback/Feedback-And-Daily-Assessment.pdf") - Feedback and Daily Assessment
-        .well Day 5 - <b> Quantification and Differential expression analysis</b>
+        .well Day 5 - <b> Differential expression analysis</b>
             ul
                 li
                    a(href="LearningObjectives/Day5-LO.pdf") Daily Learning Objectives
-                li 14:00 - 14:30 
-                   a(href="Exercises/Day5/Day5-Revision.pdf") - Revision session
-                li 14:30 - 15:30 
+                li 14:00 - 14:45 
                    a(href="Exercises/Day4/rnaseq_gene_EBI_advRNAseq_2019.html") - Differential Expression analysis setup - until the Exploratory analysis and visualization (included)
-                   br
-                   a(href="Exercises/Day4/Charlotte-BiologicalQA.R") Differential Expression analysis setup - R code
-                   br
-                   a(href="Exercises/Day4/Charlotte-BiologicalQA.R") Revisited code
-                   br
-                   a(href="Exercises/Day4/Charlotte-BiologicalQA.html") Revisited code as a html report
-                li 15:30 - 17:30 
+                li 14:45 - 15:30 
+                   a(href="https://gist.github.com/nicolasDelhomme/cf62d4b761cf9fa6ff7c998b0041ff62") - Exploratory analysis walk-through
+                li 15:30 - 17:00 
                    a(href="Lecture/Day4/differential_expression-TANMO2019.pdf") - Lecture Differential Expression
-                li 17:30 - 19:40 
-                   a(href="Exercises/Day4/rnaseq_gene_EBI_advRNAseq_2019.html") - Differential Expression analysis practical
-                   br
-                   a(href="Exercises/Day4/Charlotte-DE.R") Differential Expression analysis setup - R code
-                   br
-                   a(href="Exercises/Day5/CharlotteDE-commented.zip") Annotated version of Charlotte's DE tutorial (upload it to RStudio to visualise it)
-                li 19:40 - 20:00 - Final revision session and Feedback
+                li 17:00 - 18:00 
+                   a(href="Exercises/Day4/rnaseq_gene_EBI_advRNAseq_2019.html") - Differential Expression analysis practical - walk through
+                li 18:00 - 19:00 
+                   a(href="https://gist.github.com/nicolasDelhomme/f60c2697bfcaf93bd55a7504c33e6d55") - Differential Expression hands-on
+                li 19:00 - 20:00 - Final discussion session and Feedback
         .well Extras
             ul
                 li
