@@ -5,45 +5,34 @@ var router = express.Router();
 userdata =
 {
 "Abu Bakar Siddique":["01"],
-"Adane Demissie":["02"],
-"Adnan Niazi":["03"],
-"Alice Marcon":["04"],
-"Amrei Binzer-Panchal":["41"],
-"Anna Renström":["06"],
-"Audrey Bras":["07"],
-"Bindu Sunilkumar":["08"],
-"Cecilia Hammenhag":["45"],
-"Chaymae Fennine":["44"],
-"Denise Laskowski":["11"],
-"Ebba Perman":["12"],
-"Faruk Dube":["13"],
-"Fluturë Novakazi":["14"],
-"Francisco Gil Munoz":["15"],
-"Francois Jobert":["16"],
-"Harindranath Cholleti":["17"],
-"Ida Hallberg":["18"],
-"Irene Adamo":["19"],
-"Israa Dafalla":["20"],
-"Ivan De la Cruz Arguello":["21"],
-"Jagadeesh Sundaramoorthy":["42"],
-"Josefin Johansson":["23"],
-"Kamyar Kasmaei":["24"],
-"Ke Zang":["25"],
-"Khrystyna Kurta":["26"],
-"Kim-Cuong Le":["43"],
-"Lin Tang":["28"],
-"Maja Brus-Szkalej":["29"],
-"Muluken Birara Enyew":["30"],
-"Nicolas Delhomme":["31"],
-"Qingxuan Xie":["32"],
-"Thi Quyen Nham":["33"],
-"Sebastian Larsson Herrera":["34"],
-"Sewalem Tsehay Wondim":["35"],
-"Shuowen Cao":["36"],
-"Steven Taniwan":["37"],
-"Magdolna Szelényi":["38"],
-"Valentina Rossi":["39"],
-"Varma Saripella":["40"]
+"Adnan Niazi":["02"],
+"Asmita Shrestha":["03"],
+"Behailu Mulugeta Asfaw":["04"],
+"Bekele Gelena Kelbessa":["05"],
+"Haftom Brhane":["06"],
+"Heidrun Sigurdardottir":["07"],
+"Iryna Shutava":["08"],
+"Kajsa Svensson":["09"],
+"Kartik Baruah":["10"],
+"Lauren Davies ":["11"],
+"Lihua Zhao":["12"],
+"Louis J.P. Dufour":["13"],
+"Maliheh Mehrshad":["14"],
+"Matilda Stein Åslund":["15"],
+"Mishaneh Asgari":["16"],
+"Mohammadhossein Banabazi":["17"],
+"Nicolas Delhomme":["18"],
+"Olawale Olalekan":["19"],
+"parisa Norouzitallab":["20"],
+"Poorva Sundararajan":["21"],
+"Prune Leroy":["22"],
+"Shrikant Sharma":["23"],
+"Sidhant Chaudhary ":["24"],
+"Srinivas Akula":["25"],
+"Tamlyn Gangiah":["26"],
+"Vahideh Rafiei":["27"],
+"Vishnukiran Thuraga":["28"],
+"Wagaw Sendeku Chekole":["29"],
 };
 
 /* GET users listing. */
@@ -59,7 +48,7 @@ router.get('/', function(req, res, next) {
             userdata[property].push(baseIP);
         }
     }
-  res.render('connect', {userdata : userdata, title: 'SLUBI-2021' });
+  res.render('connect', {userdata : userdata, title: 'SLUBI-2022' });
 });
 
 module.exports = router;
