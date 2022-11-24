@@ -47,7 +47,7 @@ router.get('/', function(req, res, next) {
             userdata[property].push(baseIP);
         }
     }
-  res.render('connect', {userdata : userdata, title: 'RSA-NMO-BERLIN-2021' });
+  res.render('connect', {userdata : userdata, title: 'RSA-NMO-BERLIN-2022' });
 });
 
 module.exports = router;
