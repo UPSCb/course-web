@@ -21,7 +21,7 @@ router.get('/', function(req, res, next) {
             userdata[property].push(baseIP);
         }
     }
-  res.render('connect', {userdata : userdata, title: 'SLUBI-RNA-Seq-2023' });
+  res.render('connect', {userdata : userdata, title: 'Bioinformatics-in-Umeå-Worshop-Series-2023' });
 });
 
 module.exports = router;

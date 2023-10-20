@@ -3,48 +3,99 @@ extends layout
 block content
     .container
         .intro
-            h1 Analysis of High Throughput Sequencing RNA-Seq Data
-            h3 Online, Sweden, October 23rd-24th; October 30th - November 3rd; (November 9th)
+            h1 Bioinformatics im Umeå Workshop Series - #1 Introduction to Nextflow
+            h3 Umeå University, November 16th and 17th, NAT.D.346
             hr            
             h3.
-                Amrei Binzer-Panchal, Nicolas Delhomme, Adnan Niazi, Lizel Potgieter, Abu Bakar Siddique and Bastian Schiffthaler* and Charlotte Soneson*
+                Bastian Schiffthaler (Bn Bioinformatics) and Nicolas Delhomme (Umeå Plant Science Centre)
             hr
-            h4 Important Notes:
+            h4 Description:
+            p.lead.
+              This is the fist is a series of Workshop
+            hr
+            h4 Aim:
+            The aim to the workshop is to introduce the Nextflow technology, going from basic through to advanced concepts, to help attendees become proficient in writing their own pipeline or customising existing ones. 
+            hr
+            h4 Learning objectives:
+            p.lead
+            hr
+            h4 Prerequisites:
+            p.lead
+              ul
+                li.
+                  A working knowledge of the *nux environment and command line is required.
+                li.
+                  Basic knowledge about programming (any language) is recommended.
+                li.
+                  Basic knowledge about high-throughput sequencing experiment is recommended.
+            hr
+            h4 Schedule:
+            p.lead.
+              The workshop will (more or less) follow the 
+              a(href="https://carpentries-incubator.github.io/workflows-nextflow/") software carpentry lesson.
+            .well Day 1 - 9:00 - 17:00
+              ul
+                li 09:00 - 09:30 - Introduction to Nextflow
+                li 09:30 - 10:30 - Basic Scripting in Nextflow
+                li 10:30 - 10:45 - Coffee break (fika provided)
+                li 10:45 - 12:00 - Channels
+                li 12:00 - 13:00 - Lunch break
+                li 13:00 - 14:00 - Processes
+                li 14:00 - 15:00 - Operators
+                li 15:00 - 15:15 - Coffee break (fika provided)
+                li 15:15 - 16:00 - Executors
+                li 16:00 - 16:45 - RNA-Seq pipeline
+                li 16:45 - 17:00 - Feedback and Assessment
+            .well Day 2 - 9:00 - 17:00 - <b> Introduction to R</b>
+              ul
+                li 09:00 - 09:30 - Revision session
+                li 09:30 - 10:30 - Configuration
+                li 10:30 - 10:45 - Coffee break (fika provided)
+                li 10:45 - 12:00 - Pipeline Parameters
+                li 12:00 - 13:00 - Lunch break
+                li 13:00 - 14:00 - Workflows
+                li 14:00 - 15:00 - Modules
+                li 15:00 - 15:15 - Coffee break (fika provided)
+                li 15:15 - 16:00 - Sharing Pipelines
+                li 16:00 - 16:45 - RNA-Seq pipeline part 2
+                li 16:45 - 17:00 - Feedback and Assessment
+            h4 Tools:
+            p.lead.
+              You will be expected to bring your own laptop and to have installed Visual Studio Code (see below). No need to install Nextflow unless you want to, as we will use computing resources where that is readily available.
             p.lead
                 ul
-                    li <b>*</b> numerous excellent material contributions, thanks!
                     li.
-                        <b>R and Rstudio are FREE software, which can be installed on
+                        <b>Visual Studio Code and Nextflow are FREE software, which can be installed on
                         any computer.</b>
+                    li for Visual Studio Code:&nbsp;
+                      a(href="https://code.visualstudio.com/download") https://code.visualstudio.com/download
                     li.
-                        <b>If you are interested in setting it up on your own computer, visit:</b>
-                    ul
-                        li for R:&nbsp;
-                            a(href="https://cran.r-project.org") https://cran.r-project.org
-                        li for RStudio:&nbsp;
-                            a(href="https://www.rstudio.com") https://www.rstudio.com
-                        //li.
-                        //    <b>And if you have any issues contact any of us.</b>
-            //br
+                        <b>If you are interested in setting up NextFlow on your own computer, visit:</b>
+                        a(href="https://www.nextflow.io/docs/latest/getstarted.html") https://www.nextflow.io/docs/latest/getstarted.html
             hr
+            h4 Fee:
             p.lead.
-                Welcome to the workshop! Click one of the links below:
+              To help cover the costs of the workshop, there is a fee of 2000 kr
+            h4 Registration:
+            p.lead.
+              Register a(href="https://forms.gle/huM9JxrYyuzFREyr5") here.
             hr
-        .buttons
-            .well
-                a.btn.btn-lg.btn-default(href="https://www.physalia-courses.org/courses-workshops/course11/") Physalia Website (External link)
-                span &nbsp
-                a.btn.btn-lg.btn-default(href="https://physaliarnase-i552677.slack.com") Forum (Slack channel)
-                span &nbsp
-            hr
-            ul
-                li to connect to your Docker container (during hands-on sessions)
-                li to view lecture/practical materials (during lectures and hands-on sessions)
-        .buttons
-            .well
-                a.btn.btn-lg.btn-primary(href="/connect") Connect to instance
-                span &nbsp
-                a.btn.btn-lg.btn-primary(href="/materials") View or download materials
-                span &nbsp
-            hr
+//            p.lead.
+//                Welcome to the workshop! Click one of the links below:
+//            hr
+//        .buttons
+//            .well
+//                a.btn.btn-lg.btn-default(href="https://umea-ngs.slack.com") Forum (Slack channel)
+//                span &nbsp
+//            hr
+//            ul
+//                li to connect to your Docker container (during hands-on sessions)
+//                li to view lecture/practical materials (during lectures and hands-on sessions)
+//        .buttons
+//            .well
+//                a.btn.btn-lg.btn-primary(href="/connect") Connect to instance
+//                span &nbsp
+//                a.btn.btn-lg.btn-primary(href="/materials") View or download materials
+//                span &nbsp
+//            hr
 
