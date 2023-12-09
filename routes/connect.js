@@ -4,24 +4,8 @@ var router = express.Router();
 /* for i in {1..64} ; do echo '"'$(printf "User%02d" $i)'":["'$(printf "%02d" $i)'"],'; done */
 userdata =
 {
-"Ana Baričević":["01"],
-"Anna Sommer":["02"],
 "Bastian Schiffthaler":["03"],
-"Christina Biamis":["04"],
-"Elza Fonseca":["05"],
-"Emily Troyer":["06"],
-"Eva van der Heijden":["07"],
-"Junli Wang":["08"],
-"Konrad Taube":["09"],
-"Kristina Kuprina":["10"],
-"Loris Capria":["11"],
-"Lubomir Rajter":["12"],
-"Marie Brasseur":["13"],
-"Martin Lague":["14"],
 "Nicolas Delhomme":["15"],
-"Rachel June Gotanco":["16"],
-"Robert Fernandez Vilert":["17"],
-"Sarah Jorissen":["18"],
 };
 
 /* GET users listing. */
@@ -37,7 +21,7 @@ router.get('/', function(req, res, next) {
             userdata[property].push(baseIP);
         }
     }
-  res.render('connect', {userdata : userdata, title: 'RSA-NMO-BERLIN-2022' });
+  res.render('connect', {userdata : userdata, title: 'RSA-NMO-BERLIN-2023' });
 });
 
 module.exports = router;
