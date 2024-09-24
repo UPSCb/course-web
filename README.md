@@ -33,6 +33,10 @@ To edit the website for a course, you need to:
 2. Edit the short version of the title in the index, connect and materials js routes files (Look for :title:")
 3. Edit the participant list in the connect.js file (At the moment this is a bit convoluted as we used 2 servers and had to divide the participants across, but ideally it should be a simple user-ID list. The ID is later used to assign the Port number to connect to the user-specific Docker containers.
 
+## Keeping up to date
+
+Check the [node JS module repository](https://www.npmjs.com/) and update the package.json file accordingly.
+
 ## TODOs
 
 * provide a user file instead of modifying the connect.js
