@@ -35,7 +35,7 @@ To edit the website for a course, you need to:
 
 ## Keeping up to date
 
-Check the JS module repository and update the package.json file accordingly.
+Check the [node JS module repository](https://www.npmjs.com/) and update the package.json file accordingly.
 
 ## TODOs
 
