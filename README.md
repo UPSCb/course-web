@@ -1,6 +1,6 @@
-# course-web
-Template for the workshop website
-# Course Web Site
+# course-web - Course Web Site
+
+Template for workshop websites
 
 ## Repository structure
 
@@ -38,6 +38,10 @@ To edit the website for a course, you need to:
 ## Keeping up to date
 
 Check the [node JS module repository](https://www.npmjs.com/) and update the package.json file accordingly.
+
+## Starting
+
+docker run -d -p 3000:3000 -v /mnt/picea/projects/docker/SLUBI2020:/course-web/public/materials delhomme/upscb-nodejs:Berlin24
 
 ## TODOs
 
