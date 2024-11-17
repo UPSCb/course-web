@@ -1,6 +1,6 @@
-# course-web
-Template for the workshop website
-# Course Web Site
+# course-web - Course Web Site
+
+Template for workshop websites
 
 ## Repository structure
 
@@ -27,6 +27,8 @@ The other directories/files are managed by __nodejs__
 
 ## Changes needed for a course
 
+First, create a new branch from the most recent branch of the same course or from the master
+
 To edit the website for a course, you need to:
 
 1. Edit the title of the course in the index, connect and materials pug view files (Look for the first h1)
@@ -36,6 +38,10 @@ To edit the website for a course, you need to:
 ## Keeping up to date
 
 Check the [node JS module repository](https://www.npmjs.com/) and update the package.json file accordingly.
+
+## Starting
+
+docker run -d -p 3000:3000 -v /mnt/picea/projects/docker/SLUBI2020:/course-web/public/materials delhomme/upscb-nodejs:Berlin24
 
 ## TODOs
 
