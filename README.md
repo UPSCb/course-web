@@ -27,6 +27,8 @@ The other directories/files are managed by __nodejs__
 
 ## Changes needed for a course
 
+First, create a new branch from the most recent branch of the same course or from the master
+
 To edit the website for a course, you need to:
 
 1. Edit the title of the course in the index, connect and materials pug view files (Look for the first h1)
