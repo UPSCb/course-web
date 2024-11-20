@@ -43,6 +43,7 @@ Check the [node JS module repository](https://www.npmjs.com/) and update the pac
 
 ```bash
 docker run -d -p 3004:3000 \
+--restart unless-stopped \
 -v /mnt/picea/projects/docker/Berlin2024:/course-web/public/materials \
 delhomme/upscb-nodejs:berlin2024
 ```
