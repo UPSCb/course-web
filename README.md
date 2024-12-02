@@ -42,10 +42,10 @@ Check the [node JS module repository](https://www.npmjs.com/) and update the pac
 ## Starting
 
 ```bash
-docker run -d -p 3004:3000 \
+docker run -d -p 3005:3000 \
 --restart unless-stopped \
--v /mnt/picea/projects/docker/Berlin2024:/course-web/public/materials \
-delhomme/upscb-nodejs:berlin2024
+-v /mnt/picea/projects/docker/Munic2024:/course-web/public/materials \
+delhomme/upscb-nodejs:Munich2024
 ```
 
 ## TODOs
