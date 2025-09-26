@@ -6,14 +6,14 @@
     "start": "node ./bin/www"
   },
   "dependencies": {
-    "body-parser": "~1.20.3",
+    "body-parser": "~2.2.0",
     "cookie-parser": "^1.4.7",
-    "core-js": "~3.39.0",
-    "debug": "~4.3.7",
-    "express": "~4.21.1",
-    "morgan": "~1.10.0",
+    "core-js": "~3.45.1",
+    "debug": "~4.4.3",
+    "express": "~5.1.0",
+    "morgan": "~1.10.1",
     "pug": ">=3.0.3",
-    "serve-favicon": "~2.5.0"
+    "serve-favicon": "~2.5.1"
   },
   "devDependencies": {
     "constantinople": ">=4.0.1"
