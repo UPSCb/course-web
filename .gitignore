@@ -70,3 +70,6 @@ materials
 # package-lock
 package-lock.json
 
+# tmp
+tmp.pug
+
