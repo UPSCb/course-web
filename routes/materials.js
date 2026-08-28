@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET users listing. */
 router.get('/', function(req, res, next) {
-  res.render('materials', { title: 'SLUBI-RNA-Seq-2025' });
+  res.render('materials', { title: 'SLUBI-RNA-Seq-2026' });
 });
 
 module.exports = router;
